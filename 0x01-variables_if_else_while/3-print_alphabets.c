@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabets both lower and upper cases
- *
- * Returns: Always 0 (Success)
+ *  * main - Entry point
+ * Description: 'Check for alphabet if it is in lower case'
+ * Return: always 0
  */
 int main(void)
 
