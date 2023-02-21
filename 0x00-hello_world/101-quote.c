@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - A c program that prints a line to the standard error
- * Description: 'prints exactly'
- * Return 1 (Success)
+ * main - Entry point
+ * Description: 'print exactly followed by new line to standard error'
+ * Return: Always 0
  */
 int main(void)
 {
