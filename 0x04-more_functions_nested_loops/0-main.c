@@ -4,6 +4,8 @@
 /**
  * main - check the code.
  *
+ * void(_isupper
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -11,9 +13,9 @@ int main(void)
 	char c;
 	{
 		c = 'A';
-		printf("%c: %d\n", c, _isupper(c));
+		printf("%c: %d\n", c,(c));
 		c = 'a';
 	}
-		printf("%c: %d\n", c, _isupper(c));
+		printf("%c: %d\n", c,(c));
 		return (0);
 }
