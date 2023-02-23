@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _isupper - Checks for uppercase characters.
  * @c: The character to be checked.
@@ -9,12 +9,7 @@
 
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-	{
-	return (1);
-	}
-	else
-	{
+	if (isupper(c)
+		return (1);
 	return (0);
-	}
 }
