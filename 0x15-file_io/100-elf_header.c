@@ -1,3 +1,10 @@
+		break;
+	case ET_DYN:
+		printf("DYN (Shared object file)\n");
+		break;
+	case ET_CORE:
+		printf("CORE (Core file)\n");
+		break;
 	default:
 		printf("<unknown: %x>\n", e_type);
 	}
